@@ -1,6 +1,5 @@
 import React from 'react';
 import img from '../images/zoomImage.jpeg';
-import img1 from '../images/11_large.jpg.jpeg';
 import TopHeader from '../home/TopHeader/TopHeader';
 import NavBars from'../NavBars';
 import Breadcrumb from 'react-bootstrap/Breadcrumb';

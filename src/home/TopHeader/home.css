@@ -741,7 +741,14 @@ label {
         background-color: darkgoldenrod;
     color: aliceblue;
 }
-
+.counter-btn {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  color: inherit;
+}
 
 
 /* RWD starts here*/
