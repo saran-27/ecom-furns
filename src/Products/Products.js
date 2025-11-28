@@ -49,7 +49,7 @@ function Products() {
         <button className='btn products-buttons-1'>Add  to cart</button>
         <button className='btn products-buttons-2'>Buy it now</button>
         <ul>
-          <li className='d-flex justify-content-start align-items-center'><span className='products-wishlist'><i class="fa fa-heart"></i></span><a href='#'>Add to wishlist</a></li>
+          <li className='d-flex justify-content-start align-items-center'><span className='products-wishlist'><i class="fa fa-heart"></i></span><a href='/'>Add to wishlist</a></li>
         </ul>
         <h2>SKU: 1510</h2>
         <ul className='product-share d-flex justify-content-start align-items-center'>
