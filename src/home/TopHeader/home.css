@@ -1,0 +1,1081 @@
+body{
+    margin: 0 auto;
+     font-family: "Sedan SC", serif;
+     overflow-x:hidden;
+}
+.Top-section{
+    margin: 0 auto;
+    align-items: center;
+}
+.Top-left{
+    color: brown;
+}
+.Top-left h4{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.top-right li{
+    list-style: none;
+    color: brown;
+    margin: 0px 13px 0px 33px;
+    font-size: 25px;
+}
+.justify-content-center {
+    margin-left: 40px;
+        gap: 18px;
+    justify-content: center !important;
+}
+.dropdown-toggle {
+    white-space: nowrap;
+    border: 1px solid brown;
+}
+.nav-section{
+    background-color: #2c3d35f0;
+}
+.nav-sec {
+    margin: 0 auto;
+    padding: 21px;
+}
+.nav-sec li {
+    font-size: 17px;
+    font-weight: 300;
+    text-transform: capitalize;
+    list-style: none;
+        padding: 0px 40px;
+}
+.nav-sec li a {
+    text-decoration: none;
+    color: cornsilk;
+    padding: 16px;
+}
+.Container.slider-area {
+    background-color: #E7E7E6;
+}
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 50px;
+}
+.slider-section h1 {
+   font-size: 65px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.slider-section p {
+    font-size: 15px;
+    font-weight: 300;
+       max-width: 85%;
+    text-transform: capitalize;
+    line-height: 1.5;
+    text-align: justify;
+}
+.carousel-control-next, .carousel-control-prev {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5%;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    background: 0 0;
+    filter: var(--bs-carousel-control-icon-filter);
+    border: 0;
+    opacity: .5;
+    transition: opacity .15s 
+ease;
+}
+.carousel-inner {
+    position: relative;
+    width: 90%;
+    /* overflow: hidden; */
+    margin: 0 auto;
+    padding: 50px;
+}
+.slider-img{
+ vertical-align: middle;
+   
+}
+.slider-btn {
+    text-align: left;
+    padding: 10px 20px 10px 20px;
+    font-size: 18px;
+    font-weight: 600;
+        margin-top: 15px;
+    color: black;
+}
+.slider-btn:hover {
+    background-color: darkcyan !important;
+    color: whitesmoke !important;
+}
+.card-1{
+    position: relative;
+}
+.card-img {
+    width: 100%;
+    height: 50vh;
+    margin-top: 35px;
+}
+.CardGalleryContent {
+    position: absolute;
+    top: 161px;
+    left: 13px;
+    bottom: 0;
+}
+.CardGalleryContent h5{
+    font-size: 26px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: darkgreen;
+    margin-bottom: 25px;
+}
+.CardGalleryContent a{
+    font-size: 19px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: darkgreen;
+    text-decoration: overline;
+}
+.CardGalleryContent a:hover{
+    color: goldenrod;
+}
+.CardGallery {
+    padding: 5rem !important;
+}
+.small-sec{
+    padding: 30px;
+}
+.small-sec h1 {
+    font-size: 37px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.small-sec p {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.5;
+    text-align: center;
+    text-transform: capitalize;
+}
+.small-sec ul li {
+ font-size: 23px;
+    list-style: none;
+    font-weight: 600;
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 0px 30px 0px 30px;
+    margin: 0px 20px 0px 20px;
+}
+.small-sec ul li a {
+    text-decoration: none;
+    color: darkgreen;
+}
+.small-sec ul li a:hover{
+    color:goldenrod ;
+}
+.card {
+    padding: 0px;
+    margin: 0;
+    height: 30vh;
+}
+
+.thumb-img{
+    position: relative;
+}
+.thumb-img-1{
+    vertical-align: middle;
+       height: 35vh;
+    width: 100%;
+    overflow: hidden;
+}
+.Products-card-content {
+    position: absolute;
+    top: 0;
+   right: 26px;
+}
+.Products-card-content ul li{
+  list-style: none;
+    font-size: 25px;
+    padding: 6px 0px 14px 0px;
+    color: darkgreen;
+    display: none;
+
+}
+.Products-card-content ul li a{
+    color: darkgreen;
+}
+.Products-card-content ul li a:hover{
+    color: darkgoldenrod;    
+}
+.thumb-img:hover .Products-card-content ul li {
+  display: block;
+}
+.left-side{
+      position: absolute;
+  top: 12px;
+    left: 20px;
+}
+.Products_details h3{
+   font-size: 17px;
+    font-weight: 400;
+    color: darkgreen;
+}
+.Products_details h5{
+     font-size: 29px;
+    font-weight: 400;
+    color: darkgreen;
+}
+.Products_details {
+    text-align: center;
+    
+    margin-top: 15px;
+}
+.HD-img {
+    width: 100%;
+    height: 37vh;
+    overflow: hidden;
+}
+.HD-content a{
+    font-size: 20px;
+    text-transform: capitalize;
+    color: darkgreen;
+   
+}
+.HD-content a:hover{
+    color: goldenrod;
+}
+.HD-content p{
+    font-size: 15px;
+    line-height: 1.5;
+    text-align: justify;
+}
+.slider-btn-1{
+    text-align: left;
+    padding: 10px 20px 10px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 15px;
+    color: black;
+}
+.slider-btn-1:hover {
+    background-color: goldenrod !important;
+    color: whitesmoke !important;
+}
+.OS-card {
+     position: relative;
+    width: 100%;
+}
+
+.OS-image {
+  display: block;
+      width: 100%;
+        height: 38vh;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+      width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #343934c4;
+}
+
+
+.text{
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    font-weight: 500;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: darkgoldenrod !important;
+}
+
+.OS-card:hover .overlay {
+  opacity: 1;
+}
+.Footer-Section h4{
+        font-size: 20px;
+    font-weight: 300;
+    color: cornsilk;
+}
+.Footer-Section p{
+        font-size: 15px;
+    line-height: 1.5;
+    text-align: justify;
+    max-width: 80%;
+    color: cornsilk;
+}
+.foot-sec-1  li{
+    list-style: none;
+    display: inline-block;
+      padding: 0px 15px 0px 0px;
+    margin: 0;
+        font-size: 20px;
+    color: cornsilk;
+}
+.foot-sec-1{
+    margin: 0;
+    padding: 0;
+}
+.Footer-Section ul li{
+        list-style: none;
+    font-size: 19px;
+    text-align: left;
+}
+.Footer-Section ul{
+        padding: 0;
+}
+.Footer-Section ul li a{
+    text-decoration: none;
+    color: cornsilk;
+}
+.footer-sec{
+       padding: 106px;
+}
+.last-foot{
+    margin-top: 12px;
+    padding: 15px;
+    margin-bottom: 22px;
+}
+button.btn.bg-danger {
+    padding: 11px 30px 11px 30px;
+}
+.last-btn {
+    padding: 11px 30px 11px 30px;
+    color: darkgoldenrod;
+        font-size: 17px;
+    font-weight: 600;
+}
+.row.footer-sec {
+       background-color: #2c3d35f0;
+
+}
+.contact-detail-left{
+        display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.contact-detail-left h2{
+        font-size: 24px;
+    font-weight: 600;
+    color: darkgoldenrod;
+}
+.contact-detail-left h4{
+    font-size: 20px;
+    font-weight: 200;
+    color: darkgreen;
+    text-transform: capitalize;
+}
+.contact-icons{
+        margin: 0;
+   padding: 0;
+}
+.contact-icons li{
+        display: inline-block;
+    font-size: 20px;
+    color: darkgoldenrod;
+    padding: 0px 14px 0px 0px;
+}
+.contact-footer h5{
+    font-size: 26px;
+    font-weight: 600;
+    color: darkgreen;
+    margin-top: 20px;
+    margin-bottom: 14px;
+    
+}
+.contact-side{
+    background-color: #edfbff;
+        padding: 43px;
+}
+.form-head input{
+         padding: 16px 92px;
+    font-size: 14px;
+    border-radius: 42px;
+}
+.form-mid input{
+          width: 58%;
+    font-size: 22px;
+    padding: 13px 87px;
+    margin-top: 28px;
+        margin-left: 28px;
+    border-radius: 51px;
+}
+.form-end textarea{
+        font-size: 17px;
+    margin-top: 24px;
+    padding: 72px 59px;
+       width: 57%;
+    margin-left: 32px;
+}
+.Login-form-head{
+
+    background-color: ghostwhite;
+}
+.login-forms-detail{
+    text-align: center;
+        padding: 44px;
+      margin-top: 50px;
+  background-color: #06062ebd;
+}
+.login-forms-detail h4{
+        font-size: 35px;
+    color: darkgoldenrod;
+}
+.login-forms-detail p{
+        font-size: 18px;
+    color: darkgoldenrod;
+      
+}
+.login-forms-detail input{
+    width: 39%;
+    font-size: 14px;
+    padding: 13px;
+    margin-bottom: 29px;
+    border-radius: 71px;
+    border: none;
+}
+.login-form-end .btn {
+    font-size: 20px;
+}
+.login-form-end ul li{
+        list-style: none;
+    font-size: 19px;
+    margin-top: 21px;
+}
+.login-form-end ul li a{
+    text-decoration: none;
+    color: darkgoldenrod;
+        padding-right: 26px;
+}
+.login-body
+ {
+   padding: 0px 115px;
+}
+.contact-info{
+    text-align :center;
+}
+.login-head{
+    display: flex;
+}
+.form-start{padding: 70px;
+
+}
+.register-detail{
+         background-color: #edfbff;
+    padding: 44px;
+}
+.contact-btn-1{
+        margin: 33px;
+    font-size: 21px;
+}
+.productZoom{
+    
+         width: 356px;
+    padding: 39px;
+}
+.btnStyle{
+    font-size: 25px;
+  padding:10px 20px;
+  margin: 5px;
+  cursor: pointer;
+
+}
+.product-left-side-info h4{
+        font-size: 40px;
+    font-weight: 100;
+    color: DARKGREEN;
+    text-transform: capitalize;
+}
+.product-left-side-info h5{
+         font-size: 27px;
+    font-weight: 600;
+    color: DARKGREEN;
+    text-transform: capitalize;
+}
+.old-price{
+    font-size: 24px;
+    padding-left: 10px;
+}
+.product-left-side-info p{
+    line-height: 1.5;
+    text-align: justify;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.contersec{
+     padding: 0px 11px;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid black;
+    width: 16%;
+}
+.contersec a{
+    font-size: 19px;
+   padding: 0px 11px;
+}
+.products-buttons-1{
+font-size: 20px;
+    color: darkgreen;
+    background-color: aquamarine;
+    padding: 10px 16px;
+    margin-top: 18px;
+}
+.products-buttons-2{
+    font-size: 20px;
+    color: darkgreen;
+    background-color: aquamarine;
+    padding: 10px 16px;
+    margin-top: 18px;
+    margin-left: 26px;
+}
+.product-left-side-info ul li{
+   list-style: none;
+    font-size: 19px;
+    margin-top: 17px;
+    text-transform: capitalize;
+}
+.product-left-side-info ul{
+    margin: 0;
+    padding: 0 !important;
+}
+.products-wishlist{
+       padding-right: 9px;
+    padding-top: 4px;
+}
+.product-left-side-info ul li a{
+    text-decoration: none;
+    font-size: 19px;
+    color: darkgreen;
+}
+.product-left-side-info h2{
+        font-size: 19px;
+    font-weight: 500;
+    margin-top: 18px;
+}
+.product-share{
+        gap: 18px;
+}
+.aboutus-img img{
+    width: 100%;
+    height: 56vh;
+}
+.aboutus-content h2{
+    font-size: 37px;
+    color: darkgreen;
+    text-transform: capitalize;
+}
+.aboutus-content p{
+        font-size: 17px;
+    color: darkgreen;
+   line-height: 1.6;
+    text-transform: capitalize;
+    text-align: justify;
+}
+.aboutus-info{
+        padding: 66px;
+    align-items: center;
+}
+.trend {
+    padding: 76px;
+}
+.trend-bars {
+    margin-bottom: 33px;
+        margin-left: 29px;
+}
+.trend-left h4{
+    font-size: 28px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: darkgoldenrod;
+}
+.trend-left p{
+   font-size: 17px;
+    font-weight: 300;
+    text-transform: capitalize;
+    color: darkgreen;
+    line-height: 1.7;
+    text-align: left;
+          max-width: 100%;
+}
+.trend-bars h2{
+    font-size: 25px;
+    text-transform: capitalize;
+    color: darkgoldenrod;
+    font-weight: 700;
+}
+.progress, .progress-stacked {
+    --bs-progress-height: 1rem;
+    --bs-progress-font-size: 0.75rem;
+    --bs-progress-bg: #ffffff00;
+    --bs-progress-border-radius: var(--bs-border-radius);
+    --bs-progress-box-shadow: var(--bs-box-shadow-inset);
+    --bs-progress-bar-color: #fff;
+    --bs-progress-bar-bg: #0d6efd;
+    --bs-progress-bar-transition: width 0.6s 
+ease;
+    display: flex;
+    height: var(--bs-progress-height);
+    overflow: hidden;
+    font-size: var(--bs-progress-font-size);
+    background-color: var(--bs-progress-bg);
+    border-radius: var(--bs-progress-border-radius);
+}
+.team-img img{
+       width: 100%;
+    border-radius: 50%;
+      height: 30vh;
+}
+.team-img {
+     padding: 15px;
+    background-color: #0c756d9c;
+    border-radius: 136px 136px 0px 0px;
+}
+
+.team-img:hover {
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 75%), 0 6px 20px 0 rgb(0 0 0 / 53%);
+}
+.roles h4{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 21px;
+    text-transform: capitalize;
+    color: darkgreen;
+}
+.roles p{
+        text-align: center;
+    margin-top: 11px;
+    font-size: 15px;
+    text-transform: capitalize;
+    color: blanchedalmond;
+}
+
+.teams{
+    padding: 36px
+}
+.slick-slide img {
+    display: block;
+    width: 38%;
+       height: 18vh;
+}
+.payment-type li{
+        display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+    margin-top: 48px;
+}
+.payment-type li h2{
+        font-size: 21px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: darkgreen;
+}
+.payment-type li i{
+           font-size: 29px;
+    font-weight: 100;
+}
+.payment-method.col-md-5 {
+    padding: 44px;
+        border-right-style: inset;
+}
+.payment-input input{
+     width: 100%;
+  padding: 14px;
+  border: 1px solid #dcdcdc;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+label {
+     font-size: 24px;
+    display: block;
+    color: darkgreen;
+    text-transform: capitalize;
+}
+.payment-side.col-md-6 {
+    padding: 44px;
+}
+.payment-side h3{
+       font-size: 38px;
+    text-transform: capitalize;
+    color: darkgreen;
+}
+.payment-side h4{
+     font-size: 18px;
+    text-transform: capitalize;
+    color: darkgreen;
+}
+.payment-plateform img{
+          width: 13%;
+    height: 10vh;
+}
+.payment-plateform{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+        gap: 9px;
+}
+.pay-button{
+        font-size: 24px;
+    color: darkgreen;
+    background-color: aquamarine;
+    width: 100%;
+    border-radius: 0px;
+    margin-top: 30px;
+}
+.pay-button:hover{
+        background-color: darkgoldenrod;
+    color: aliceblue;
+}
+
+
+
+/* RWD starts here*/
+/* MOBILE (screens below 768px) */
+@media only screen and (max-width: 768px) {
+
+  html, body {
+    overflow-x: hidden;
+  }
+
+  body {
+    margin: 0 auto;
+    font-family: "Sedan SC", serif;
+  }
+
+  .slider-section h1 {
+    font-size: 26px;
+    font-weight: 600;
+    text-transform: capitalize;
+  }
+
+  .slider-section p {
+        font-size: 14px;
+        font-weight: 300;
+        max-width: 100%;
+        width: 100%;
+        text-transform: capitalize;
+        line-height: 1.5;
+        text-align: center;
+    }
+.nav-section{
+    background-color: #2c3d35f0 !important;
+}
+.nav-sec {
+    margin: 0 auto;
+    padding: 21px;
+}
+.nav-sec li {
+    font-size: 17px;
+    font-weight: 300;
+    text-transform: capitalize;
+    list-style: none;
+}
+.nav-sec li a {
+    text-decoration: none;
+    color: cornsilk;
+    padding: 16px;
+            border-bottom: 1px solid navajowhite;
+}
+.nav-link:focus, .nav-link:hover {
+    color: darkgoldenrod;
+}
+.top-right li {
+    list-style: none;
+    color: brown;
+    margin: 16px 0px 0px 38px;
+    font-size: 25px;
+}
+.CardGallery {
+    padding: 1rem !important;
+}
+.small-sec ul li {
+    font-size: 23px;
+    list-style: none;
+    font-weight: 600;
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 20px 29px 0px 28px;
+    margin: 0px 20px 0px 20px;
+}
+.small-sec h1 {
+   font-size: 28px;
+        font-weight: 300;
+        text-transform: capitalize;
+}
+.small-sec p {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.5;
+    text-align: center;
+    text-transform: capitalize;
+}
+.small-sec ul li {
+         font-size: 19px;
+        list-style: none;
+        font-weight: 400;
+        display: inline-block;
+        text-transform: uppercase;
+        padding: 0px 30px 0px 30px;
+        margin: 12px 20px 0px 20px;
+}
+.small-sec ul li a {
+    text-decoration: none;
+    color: darkgreen;
+}
+.small-sec ul li a:hover{
+    color:goldenrod ;
+}
+.slider-btn-1 {
+    text-align: left;
+    padding: 10px 20px 10px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 15px;
+    color: black;
+    margin-bottom: 31px;
+}
+.OS-image {
+    display: block;
+    width: 100%;
+    height: 38vh;
+    margin-bottom: 20px;
+}
+.footer-sec {
+    padding: 15px;
+}
+.login-head {
+    display: flex !important;
+    margin-left: 0px;
+    gap: 116px;
+    justify-content: center !important;
+}
+.aboutus-info {
+    padding: 0px;
+    align-items: center;
+}
+.aboutus-content h2 {
+    font-size: 26px;
+    color: darkgreen;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+.aboutus-content p {
+    font-size: 14px;
+    color: darkgreen;
+    line-height: 1.8;
+    text-transform: capitalize;
+    text-align: justify;
+}
+.trend {
+            padding: 0px;
+        margin-top: 24px;
+}
+.trend-left p {
+    font-size: 15px;
+    font-weight: 300;
+    text-transform: capitalize;
+    color: darkgreen;
+    line-height: 1.7;
+    text-align: left;
+    max-width: 100%;
+}
+.trend-left h4 {
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: darkgoldenrod;
+    margin-bottom: 20px;
+}
+.trend-bars {
+    margin-bottom: 33px;
+    margin-left: 0;
+}
+.team-img img {
+    width: 100%;
+    border-radius: 50%;
+    height: 38vh;
+}
+.team-img {
+    padding: 15px;
+    background-color: #0c756d9c;
+    border-radius: 150px 150px 0px 0px;
+}
+.slick-slide img {
+    display: block;
+    width: 60%;
+       height: 7vh;
+}
+iframe {
+    border: 0;
+    width: 100%;
+    height: 61vh;
+}
+.contact-side {
+    background-color: #edfbff;
+           padding: 28px;
+}
+.form-start {
+    padding: 0px;
+}
+.register-detail {
+    background-color: #edfbff;
+    padding: 0;
+}
+.form-mid input {
+            width: 100%;
+       padding: 10px 40px;
+        font-size: 14px;
+        border-radius: 30px;
+        width: 100%;
+        margin-top: 15px;
+        margin-left: 0px;
+}
+.form-head input {
+   padding: 10px 38px;
+    font-size: 14px;
+    border-radius: 30px;
+     width: 100%;
+}
+.form-end textarea {
+    font-size: 13px;
+    margin-top: 24px;
+    padding: 62px 41px;
+    width: 100%;
+    margin-left: 0px;
+}
+.contact-btn-1 {
+    margin: 10px 0px 10px 125px;
+    font-size: 20px;
+}
+.register-detail h2{
+    padding-left: 16px;
+        font-size: 26px;
+        text-transform: capitalize;
+        margin-bottom: 20px;
+}
+.productZoom {
+    width: 100%;
+    padding: 15px;
+}
+.product-header h1{
+            font-size: 21px;
+        font-weight: 300;
+        text-transform: capitalize;
+}
+.product-left-side-info h4 {
+    font-size: 28px;
+    font-weight: 100;
+    color: DARKGREEN;
+    text-transform: capitalize;
+}
+.old-price {
+    font-size: 21px;
+    padding-left: 10px;
+}
+.contersec {
+    padding: 0px 11px;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid black;
+    width: 26%;
+}
+.payment-method h3{
+    font-size: 24px;
+        text-transform: capitalize;
+        color: darkgreen;
+}
+.payment-side h3 {
+    font-size: 31px;
+    text-transform: capitalize;
+    color: darkgreen;
+}
+.payment-side h4 {
+    font-size: 15px;
+    text-transform: capitalize;
+    color: darkgreen;
+}
+.payment-side.col-md-6 {
+    padding: 31px;
+}
+.payment-plateform {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 48px;
+}
+.payment-plateform img {
+    width: 100%;
+    height: 10vh;
+}
+label {
+    font-size: 19px;
+    display: block;
+    color: darkgreen;
+    text-transform: capitalize;
+}
+.payment-method.col-md-5 {
+    padding: 34px;
+    border-right-style: inset;
+}
+.payment-type li h2 {
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: darkgreen;
+}
+.payment-type li {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+    margin-top: 31px;
+}
+    .login-head {
+        display: flex;
+        margin-left: 0px;
+        gap: 44px;
+        justify-content: center !important;
+    }
+    .login-body {
+    padding: 0px 0px;
+}
+.login-forms-detail {
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+    background-color: #06062ebd;
+}
+.login-forms-detail input {
+    width: 71%;
+    font-size: 14px;
+    padding: 13px;
+    margin-bottom: 30px;
+    border-radius: 71px;
+    border: none;
+}
+.login-form-end .btn {
+    font-size: 17px;
+}
+.aboutus-img img {
+    width: 100%;
+    height: 43vh;
+}
+}
+
