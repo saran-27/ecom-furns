@@ -21,9 +21,9 @@ export class Counter extends Component {
   render() {
     return (
       <div className='d-flex counter-sec col-md-12 contersec px-2'>
-        <a onClick={this.decrement}><i class="fa fa-caret-down"></i></a>
+        <a  href="javascript:void(0)" onClick={this.decrement}><i class="fa fa-caret-down"></i></a>
         <h3>{this.state.count}</h3>
-        <a onClick={this.increment}><i class="fa fa-caret-up"></i></a>
+        <a  href="javascript:void(0)" onClick={this.increment}><i class="fa fa-caret-up"></i></a>
       </div>
     )
   }
